@@ -144,4 +144,20 @@ public class Teacher implements Serializable {
     public void setGmtModified(Date gmtModified) {
         this.gmtModified = gmtModified;
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", intro='" + intro + '\'' +
+                ", career='" + career + '\'' +
+                ", level=" + level +
+                ", avatar='" + avatar + '\'' +
+                ", sort=" + sort +
+                ", isDeleted=" + isDeleted +
+                ", gmtCreate=" + gmtCreate +
+                ", gmtModified=" + gmtModified +
+                '}';
+    }
 }

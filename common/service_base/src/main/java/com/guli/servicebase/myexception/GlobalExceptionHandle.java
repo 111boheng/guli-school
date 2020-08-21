@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-@ControllerAdvice
-@ResponseBody
+//@ControllerAdvice
+//@ResponseBody
 public class GlobalExceptionHandle {
     @ExceptionHandler(Exception.class)
     public String MyGlobalException (Exception e){

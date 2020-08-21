@@ -15,6 +15,7 @@
     <modules>
         <module>service_edu</module>
         <module>service_vod</module>
+        <module>service_oss</module>
     </modules>
     <packaging>pom</packaging>
 <dependencies>
@@ -106,6 +107,11 @@
         <artifactId>commons-fileupload</artifactId>
     </dependency>
 
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>easyexcel</artifactId>
+        <version>2.1.1</version>
+    </dependency>
     <!--httpclient-->
     <dependency>
         <groupId>org.apache.httpcomponents</groupId>

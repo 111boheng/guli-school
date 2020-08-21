@@ -43,4 +43,14 @@ public class TeacherQuery {
     public void setEnd(String end) {
         this.end = end;
     }
+
+    @Override
+    public String toString() {
+        return "TeacherQuery{" +
+                "name='" + name + '\'' +
+                ", level=" + level +
+                ", begin='" + begin + '\'' +
+                ", end='" + end + '\'' +
+                '}';
+    }
 }
